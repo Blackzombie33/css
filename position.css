@@ -1,0 +1,326 @@
+*{
+margin :0;
+padding:0;
+}
+body{
+	background-color:#fff;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: 100% 100%; 
+} 
+.css{
+	margin:2%; 
+   animation: spin 3s linear infinite;
+   animation-play-state: paused; 
+} 
+.css:hover {
+  animation-play-state: running;
+}
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+} 
+.ba{
+	position: absolute;
+	top: calc(20% - 150px);
+    right: calc(9% - 150px);
+	color:#3498db;
+    font-size:60px; 
+    text-align: center;
+    background-color:#fff;
+    border: 5px solid #3498db; 
+    border-radius:50px;
+    width:350px; 
+}
+.text{
+font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:40px; 	
+	position: absolute; 
+	top: calc(26% - 150px);
+    right: calc(8% - 150px);
+} 
+.text1{
+font-family: 'Cairo', sans-serif;
+	color:#3498db; 
+    font-size:40px; 	
+	position: absolute; 
+	top: calc(30% - 150px);
+    right: calc(8% - 150px);
+}  
+.text2{
+font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:40px; 	
+	position: absolute; 
+	top: calc(34% - 150px);
+    right: calc(8% - 150px);
+}   
+.text3{
+font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(40% - 150px);
+    right: calc(8% - 150px);
+}  
+ul{
+	position: absolute; 
+	top: calc(45% - 150px);
+    left: calc(20% - 150px);
+}   
+ul li{
+	font-family: 'Sono', sans-serif;
+	color:#3498db; 
+    font-size:60px; 	
+    list-style:none;
+    margin:5%; 
+} 
+.text4{
+	color:#3498db; 
+    font-size:65px; 	
+	position: absolute; 
+	top: calc(80% - 150px);
+    right: calc(9% - 150px);
+}   
+.text5{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:37px; 	
+	position: absolute; 
+	top: calc(85% - 150px);
+    right: calc(8% - 150px);
+}   
+.text6{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(90% - 150px);
+    right: calc(9% - 150px);
+}   
+.position1{
+	position: absolute;
+	top: calc(95% - 150px);
+   right: calc(31% - 150px);
+   border-radius:20px;
+}   
+.text7{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(110% - 150px);
+    right: calc(9% - 150px);
+}  
+.position2{
+	position: absolute;
+	top: calc(120% - 150px);
+   right: calc(31% - 150px);
+   border-radius:20px;
+}   
+.text8{
+	color:#3498db; 
+    font-size:65px; 	
+	position: absolute; 
+	top: calc(160% - 150px);
+    right: calc(9% - 150px);
+}       
+.text9{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:37px; 	
+	position: absolute; 
+	top: calc(164% - 150px);
+    right: calc(9% - 150px);
+}     
+.text99{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:37px; 	
+	position: absolute; 
+	top: calc(168% - 150px);
+    right: calc(9% - 150px);
+}  
+.text10{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(175% - 150px);
+    right: calc(9% - 150px);
+}   
+.position3{
+	position: absolute;
+	top: calc(180% - 150px);
+   right: calc(31% - 150px);
+   border-radius:20px;
+}
+.text11{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(200% - 150px);
+    right: calc(9% - 150px);
+}  
+.position4{
+	position: absolute;
+	top: calc(210% - 150px);
+   right: calc(31% - 150px);
+   border-radius:20px;
+}  
+.text12{
+	color:#3498db; 
+    font-size:65px; 	
+	position: absolute; 
+	top: calc(270% - 150px);
+    right: calc(9% - 150px);
+}    
+.text13{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:37px; 	
+	position: absolute; 
+	top: calc(275% - 150px);
+    right: calc(9% - 150px);
+}           
+.text14{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:35px; 	
+	position: absolute; 
+	top: calc(279% - 150px);
+    right: calc(9% - 150px);
+}            
+     
+.text144{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:35px; 	
+	position: absolute; 
+	top: calc(282% - 150px);
+    right: calc(9% - 150px);
+}
+.text15{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(290% - 150px);
+    right: calc(9% - 150px);
+}                
+.position5{
+	position: absolute;
+	top: calc(300% - 150px);
+   right: calc(31% - 150px);
+   border-radius:20px;
+}      
+.text16{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(325% - 150px);
+    right: calc(9% - 150px);
+}    
+.position6{
+	position: absolute;
+	top: calc(330% - 150px);
+   right: calc(31% - 150px);
+   border-radius:20px;
+}  
+
+.text17{
+	color:#3498db; 
+    font-size:65px; 	
+	position: absolute; 
+	top: calc(390% - 150px);
+    right: calc(9% - 150px);
+}    
+.text18{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:37px; 	
+	position: absolute; 
+	top: calc(395% - 150px);
+    right: calc(9% - 150px);
+}          
+.text19{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:37px; 	
+	position: absolute; 
+	top: calc(399% - 150px);
+    right: calc(9% - 150px);
+}  
+.text21{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(408% - 150px);
+    right: calc(9% - 150px);
+}  
+.position7{
+	position: absolute;
+	top: calc(417% - 150px);
+   right: calc(27% - 150px);
+   border-radius:20px;
+}  
+.text22{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(440% - 150px);
+    right: calc(9% - 150px);
+}  
+.position8{
+	position: absolute;
+	top: calc(445% - 150px);
+   right: calc(27% - 150px);
+   border-radius:20px;
+}
+.text23{
+	color:#3498db; 
+    font-size:65px; 	
+	position: absolute; 
+	top: calc(495% - 150px);
+    right: calc(9% - 150px);
+}  
+.text24{
+	font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:37px; 	
+	position: absolute; 
+	top: calc(500% - 150px);
+    right: calc(9% - 150px);
+}  
+.text26{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(505% - 150px);
+    right: calc(9% - 150px);
+}
+.position9{
+	position: absolute;
+	top: calc(515% - 150px);
+   right: calc(30% - 150px);
+   border-radius:20px;
+}      
+.text27{
+	font-family: 'Cairo', sans-serif;
+	color:#BA55D3; 
+    font-size:60px; 	
+	position: absolute; 
+	top: calc(550% - 150px);
+    right: calc(9% - 150px);
+} 
+.position10{
+	position: absolute;
+	top: calc(560% - 150px);
+   right: calc(27% - 150px);
+   border-radius:20px;
+}    

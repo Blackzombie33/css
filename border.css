@@ -1,0 +1,128 @@
+*{
+margin :0;
+padding:0;
+}
+body{
+	background-color:#fff;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: 100% 100%; 
+} 
+.css{
+	margin:2%; 
+   animation: spin 3s linear infinite;
+   animation-play-state: paused; 
+} 
+.css:hover {
+  animation-play-state: running;
+}
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+} 
+.ba{
+	position: absolute;
+	top: calc(20% - 150px);
+    right: calc(4% - 150px);
+	color:#3498db;
+    font-size:60px; 
+    text-align: center;
+    background-color:#fff;
+    border: 5px solid #3498db; 
+    border-radius:50px;
+    width:600px; 
+}
+.text{
+font-family: 'Cairo', sans-serif;
+	color:#000; 
+    font-size:38px; 	
+	position: absolute; 
+	top: calc(27% - 150px);
+    right: calc(5% - 150px);
+}   
+.text2{
+	color:#000;
+	font-family: 'Cairo', sans-serif;
+	font-size:38px; 
+    position: absolute;
+	top: calc(31% - 150px);
+   right: calc(5% - 150px);
+}   
+.text3{
+
+	color:#BA55D3;
+
+	font-family: 'Cairo', sans-serif;
+
+	font-size:65px; 
+
+    position: absolute;
+
+	top: calc(35% - 150px);
+
+   right: calc(5% - 150px);
+
+}   
+.bi{
+
+	position: absolute;
+
+
+
+	top: calc(55% - 150px);
+
+
+
+   right: calc(5% - 150px);
+
+   border-radius:20px;
+
+   
+
+}     
+.bo{
+
+	position: absolute;
+
+
+
+	top: calc(55% - 150px);
+
+
+
+   left: calc(15% - 150px);
+
+   border-radius:20px;
+
+   
+
+}    
+.bo2{
+	color:#3498db; 
+	font-family: 'Cairo', sans-serif;
+	font-size:50px; 
+	position: absolute;
+	top: calc(52% - 150px);
+   left: calc(36% - 150px);
+}   
+.ba2{
+	color:#3498db; 
+	font-family: 'Cairo', sans-serif;
+	font-size:50px; 
+	position: absolute;
+	top: calc(53% - 150px);
+   right: calc(26% - 150px);
+}   
+.text4{
+	color:#BA55D3; 
+	font-family: 'Cairo', sans-serif;
+	font-size:60px; 
+    position: absolute;
+	top: calc(75% - 150px);
+   right: calc(13% - 150px);
+}  
+.border{
+position: absolute;
+	top: calc(85% - 150px);
+   right: calc(31% - 150px);
+   border-radius:20px;
+}   
